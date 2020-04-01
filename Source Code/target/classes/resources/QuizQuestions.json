@@ -1,0 +1,40 @@
+{
+  "type" : {
+      "easy" : [
+          {
+            "question" : "Which design pattern defines an interface for creating an object, but let the subclasses decide which class to instantiate. It let the instantiation differ to subclasses.",
+            "answer" : "Factory Method",
+            "options" : ["Abstract Factory", "Factory Method", "Builder", "Prototype"],
+            "images" : ["Factory_1.jpg", "Factory_2.jpg", "Factory_3.jpg", "Factory_4.jpg"]
+          },
+          {
+            "question" : "Which deign pattern allows attaching additional responsibilities to an object dynamically. It provides a flexible alternative to subclassing for extending functionality",
+            "answer" : "Decorator",
+            "options" : ["Chain of Responsibility", "Adapter", "Decorator", "Composite"],
+            "images" : ["Decorator_1.jpg", "Decorator_2.jpg", "Decorator_3.jpg", "Decorator_4.png"]
+          },
+          {
+            "question" : "Which design pattern defines a family of algorithms, encapsulate each one, and make them interchangeable. It lets the algorithm vary independently from clients that use it.",
+            "answer" : "Strategy",
+            "options" : ["Template method", "Decorator", "Strategy", "Visitor"],
+            "images" : ["image1", "image2", "image3", "image4"]
+          },
+          {
+            "question" : "Which design pattern encapsulates a request as an object, there by letting you parametrize clients with different requests, queue or log requests, and support undoable operation.",
+            "answer" : "Command",
+            "options" : ["Adapter", "Decorator", "Command", "Composite"],
+            "images" : ["image1", "image2", "image3", "image4"]
+          },
+          {
+            "question" : "Which design pattern provides an unified interface to a set of interfaces in a subsystem. It define a higher level interface that makes the subsystem easier to use.",
+            "answer" : "Facade",
+            "options" : ["Facade", "Mediator", "Adapter", "Strategy"],
+            "images" : ["image1", "image2", "image3", "image4"]
+          }
+      ],
+      "medium" : [
+      ],
+      "difficult" : [
+      ]
+  }
+}

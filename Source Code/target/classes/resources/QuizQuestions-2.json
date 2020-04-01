@@ -1,0 +1,100 @@
+{
+  "type" : {
+      "easy" : [
+          {
+            "question" : "Which design pattern defines an interface for creating an object, but let the subclasses decide which class to instantiate. It let the instantiation differ to subclasses.",
+            "answer" : "Factory Method",
+            "options" : ["Abstract Factory", "Factory Method", "Builder", "Prototype"],
+            "images" : ["Factory_1.jpg", "Factory_2.jpg", "Factory_3.jpg", "Factory_4.jpg"]
+          },
+          {
+            "question" : "Which deign pattern allows attaching additional responsibilities to an object dynamically. It provides a flexible alternative to subclassing for extending functionality",
+            "answer" : "Decorator",
+            "options" : ["Chain of Responsibility", "Adapter", "Decorator", "Composite"],
+            "images" : ["Decorator_1.jpg", "Decorator_2.jpg", "Decorator_3.jpg", "Decorator_4.png"]
+          },
+          {
+            "question" : "Which design pattern defines a family of algorithms, encapsulate each one, and make them interchangeable. It lets the algorithm vary independently from clients that use it.",
+            "answer" : "Strategy",
+            "options" : ["Template method", "Decorator", "Strategy", "Visitor"],
+            "images" : ["Strategy_1.jpg", "Strategy_2.jpg", "Strategy_3.png", "Strategy_4.PNG"]
+          },
+          {
+            "question" : "Which design pattern encapsulates a request as an object, there by letting you parametrize clients with different requests, queue or log requests, and support undoable operation.",
+            "answer" : "Command",
+            "options" : ["Adapter", "Decorator", "Command", "Composite"],
+            "images" : ["Command_1.jpg", "Command_2.jpg", "Command_3.png", "Command_4.PNG"]
+          },
+          {
+            "question" : "Which design pattern provides an unified interface to a set of interfaces in a subsystem. It define a higher level interface that makes the subsystem easier to use.",
+            "answer" : "Facade",
+            "options" : ["Facade", "Mediator", "Adapter", "Strategy"],
+            "images" : ["Facade_1.jpg", "Facade_2.jpg", "Facade_3.png", "Facade_4.png"]
+          }
+      ],
+      "medium" : [
+          {
+            "question" : "Which desing pattern is used to to access an aggregate object's contents without exposing its internal representation",
+            "answer" : "Iterator",
+            "options" : ["Composite", "Iterator", "Adapter", "Factory"],
+            "images" : ["Iterator_1.jpg", "Iterator_2.jpg", "Iterator_3.png", "Iterator_4.PNG"]
+          },
+          {
+            "question" : "Which design pattern converts the interface of a class into another interface the client expects. It lets classes work together that couldn't otherwise because of incompatible interfaces.",
+            "answer" : "Adapter",
+            "options" : ["Factory", "Prototype", "Proxy", "Adapter"],
+            "images" : ["Adapter_1.jpg", "Adapter_2.jpg", "Adapter_3.jpg", "Adapter_4.PNG"]
+          },
+          {
+            "question" : "Which design pattern separates the construction of a complex object from its representation so that the same construction process can create different representations",
+            "answer" : "Builder",
+            "options" : ["Facade", "Flyweight", "Bridge", "Builder"],
+            "images" : ["Builder_1.jpg", "Builder_2.jpg", "Builder_3.png", "Builder_4.png"]
+          },
+          {
+            "question" : "Which design pattern allows for object level access control by acting as a pass through entity or a placeholder object.",
+            "answer" : "Proxy",
+            "options" : ["Proxy", "Command", "Decorator", "Factory"],
+            "images" : ["Proxy_1.jpg", "Proxy_2.jpg", "Proxy_3.png", "Proxy_4.PNG"]
+          },
+          {
+            "question" : "Which design pattern should be used when you want to issue a request to one of several objects without specifying the receiver explicitly",
+            "answer" : "Chain of Responsibility",
+            "options" : ["Command", "Composite", "Chain of Responsibility", "Factory"],
+            "images" : ["COR_1.jpg", "COR_2.jpg", "COR_3.png", "COR_4.PNG"]
+          }
+      ],
+      "hard" : [
+          {
+            "question" : "Which of the following pattern refers to creating duplicate object while keeping performance in mind",
+            "answer" : "Prototype",
+            "options" : ["Builder", "Bridge", "Prototype", "Memento"],
+            "images" : ["Prototype_1.jpg", "Prototype_2.jpg", "Prototype_3.png", "Prototype_4.png"]
+          },
+          {
+            "question" : "Which design pattern provides an interface for creating families of related or dependent objects without specifying thier concrete classes",
+            "answer" : "Abstract Factory",
+            "options" : ["Factory", "Abstract Factory", "Builder", "Facade"],
+            "images" : ["AbstractFactory_1.jpg", "AbstractFactory_2.jpg", "AbstractFactory_3.jpg", "AbstractFactory_4.jpg"]
+          },
+          {
+            "question" : "Which of the following design patterns should be used when classes delegate responsibility to one of several helper subclasses, and you want to localize the knowledge of which helper subclass is the delegate.",
+            "answer" : "Factory",
+            "options" : ["Decorator", "Factory", "Chain of Responsibility", "Command"],
+            "images" : ["Factory_1.jpg", "Factory_2.jpg", "Factory_3.jpg", "Factory_4.jpg"]
+          },
+          {
+            "question" : "Which design pattern promotes loose coupling by keeping objects from referring to each other explicitly, and lets you vary their interaction independently.",
+            "answer" : "Mediator",
+            "options" : ["Composite", "Mediator", "Chain of Responsibility", "Command"],
+            "images" : ["Mediator_1.jpg", "Mediator_2.jpg", "Mediator_3.jpg", "Mediator_4.jpg"]
+          },
+          {
+            "question" : "Which design pattern's intent is to capture and externalize an object's internal state without violating encapsulation, so that the object can be restored later",
+            "answer" : "Memento",
+            "options" : ["State", "Strategy", "Bridge", "Memento"],
+            "images" : ["Memento_1.jpg", "Memento_2.jpg", "Memento_3.png", "Memento_4.png"]
+          }
+      ]
+  }
+}
